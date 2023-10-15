@@ -8,7 +8,7 @@ public class LIDAR_Trial : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EditorScriptingUtilities" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
